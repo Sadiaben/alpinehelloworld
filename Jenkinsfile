@@ -2,6 +2,7 @@
 @Library('shared-library')_
 
 pipeline {
+     
      environment {
        IMAGE_NAME = "alpinehelloworld"
        IMAGE_TAG = "latest"
